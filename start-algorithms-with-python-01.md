@@ -81,7 +81,7 @@ if __name__ == "__main__":
 > 
 * 답을 먼저 말하면 해시(hash)를 이용하는 것이다.
 * 
-* **O(1)**
+* **O(N)**
 * 코드는 다음과 같다.
 ```python
 def checkDuplcation(arr):
