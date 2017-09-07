@@ -75,15 +75,13 @@ if __name__ == "__main__":
 1. 첫 번째 값을 두번째 값부터 비교하며 검사
 2. 두 번째 값을 세번째 값부터 비교하며 검사
 </pre>
-* 코드는 다음과 같다. 사실 코드레벨의 차이점이라고는 for j in range(i+1, length): 부분 밖에 없다.
+* 코드는 다음과 같다.
 ```python
 def checkDuplcation(arr):
     length = len(arr)
     for i in range(length):
-        for j in range(i+1, length):			
-            if i == j:
-	        continue
-	    elif arr[i] == arr[j]:				
+        for j in range(i+1, length):
+            if arr[i] == arr[j]:				
 	        return arr[i]
     return -1
 
