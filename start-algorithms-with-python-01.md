@@ -6,8 +6,9 @@
 * 주어진 문제를 프로그래밍 언어로 작성해서 원하는 결과를 출력하게 만들면 모두 좋은 알고리즘일까?
 * 당연히 아니다! 컴퓨터는 한정된 자원(CPU,RAM,..)을 바탕으로 작업(연산)을 진행한다. 그러므로 알고리즘을 작성할때는 자원의 사용을 최소화하는 알고리즘이 무엇인지 항상 생각해야한다.
 * 그렇다면 효율적인 알고리즘을 판단하는 요소는 무엇일까? 그것은 바로 시간복잡도(time complexity)와 공간복잡도(space complexity)이다!
-https://en.wikipedia.org/wiki/Time_complexity
-https://en.wikipedia.org/wiki/DSPACE
+* 시간복잡도 [https://en.wikipedia.org/wiki/Time_complexity]
+* 공간복잡도 [https://en.wikipedia.org/wiki/DSPACE]
+* BigO Notation Cheetsheet! [http://www.bigocheatsheet.com/]
 
 * 발전된 하드웨어 스펙으로인해 최근에는 공간복잡도에 대한 최적화가 시간복잡도보다는 덜 이루어진다. 
 * 여기서는 시간복잡도에 대한 접근 방식을 살펴보겠다.
